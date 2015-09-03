@@ -1,19 +1,9 @@
-.left_block {
-}
-
 .block_nav{
   padding-bottom: 50px;
 }
 
 .right_block {
-  border-color: #e0e0e0;
   padding-left: 35px;
-}
-
-.row_right_caption {
-  text-align: right;
-  font-size: 12px;
-  padding-right: 10px;
 }
 
 .list_cv {
@@ -58,4 +48,9 @@
 .list_sub a{
   text-decoration: none;
   color: #999999;
+}
+.art_caption{
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: -5px;
 }

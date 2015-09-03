@@ -1,17 +1,8 @@
 require 'sinatra'
-require 'sinatra/flash'
-
-enable :sessions
 
 get '/' do
-  redirect '/about'
+  redirect '/shows/about'
 end
-
-get '/tada' do
- flash[:success] = "Hooray, Flash is working!"
- redirect '/'
-end
-
 
 get '/shows/paintings/2015' do
   erb :"/shows/paintings/2015"
