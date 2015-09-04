@@ -3,12 +3,13 @@
 }
 
 .right_block {
-  padding-left: 35px;
+  /*padding-left: 35px;*/
+  padding-left:  2em;
 }
 
 .list_cv {
   list-style-type: none;
-  margin-left: 15px;
+  margin-left:  1em;
 }
 
 .list_dir {
@@ -20,11 +21,11 @@
   color: #999999;
 }
 .jakegibs {
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 .page_headers {
-  font-size: 20px;
+  font-size:  1.1em;
   color: #999999;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .contact_headers2{
-  font-size: 15px;
+  font-size:  .9em;
   color: #888888;
 }
 
@@ -50,7 +51,7 @@
   color: #999999;
 }
 .art_caption{
-  text-align: right;
-  font-size: 12px;
+  text-align: left;
+  font-size: .8em;
   margin-bottom: -5px;
 }
