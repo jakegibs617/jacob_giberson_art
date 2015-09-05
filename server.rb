@@ -59,8 +59,8 @@ get '/shows/paintings/2014/slides' do
 end
 
 # drawing pages below
-get '/shows/drawings/2015' do
-  erb :"/shows/drawings/2015"
+get '/shows/drawings/2013' do
+  erb :"/shows/drawings/2013"
 end
 
 # post request - form entry to db
