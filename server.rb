@@ -46,6 +46,9 @@ end
 get '/shows/cv' do
   erb :"/shows/cv"
 end
+get '/shows/projects' do
+  erb :"/shows/projects"
+end
 
 # painting pages below
 get '/shows/paintings/gallery' do
