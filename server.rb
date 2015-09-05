@@ -63,6 +63,9 @@ end
 get '/shows/paintings/2013/slides' do
   erb :"/shows/paintings/2013/slides"
 end
+get '/shows/paintings/2012/slides' do
+  erb :"/shows/paintings/2012/slides"
+end
 
 # drawing pages below
 get '/shows/drawings/2013' do
