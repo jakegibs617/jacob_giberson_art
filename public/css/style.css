@@ -16,10 +16,24 @@
   list-style-type: none;
   margin-right: 15px;
 }
-.list_dir a{
-  text-decoration: none;
+.list_sub_left{
+  list-style-type: none;
+}
+.list_sub_left a{
   color: #999999;
 }
+.list_sub_left a:hover{
+  font-weight: bold;
+}
+
+.list_dir a{
+  color: #999999;
+}
+
+.list_dir a:hover{
+  font-weight: bold;
+}
+
 .jakegibs {
   font-size: 1.1em;
 }
@@ -32,7 +46,11 @@
 .list_contact {
   list-style-type: none;
   margin-left: 15px;
-  color
+}
+.projects {
+  list-style-type: none;
+  margin-left: 15px;
+  
 }
 
 .contact_headers2{
@@ -43,14 +61,21 @@
 .block_mid{
   padding-top: 30px;
 }
+
 .list_sub {
   list-style-type: none;
   margin-left: 10px;
 }
+
 .list_sub a{
   text-decoration: none;
   color: #999999;
 }
+
+.list_sub a:hover{
+  font-weight: bold;
+}
+
 .art_caption{
   text-align: left;
   font-size: .8em;
