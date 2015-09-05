@@ -71,5 +71,5 @@ post "/shows/contact" do
     (first_name, last_name, email, comments)
     VALUES ($1, $2, $3, $4)"),
     [first_name, last_name, email, comments]}
-  redirect '/shows/home'
+  redirect "/shows/home"
 end
